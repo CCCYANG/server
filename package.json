@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "my server",
+  "main": "index.js",
+  "scripts": {
+    "api": "nodemon server.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "body-parser": "^1.17.2",
+    "compression": "^1.6.2",
+    "express": "^4.15.3",
+    "parse-server": "^2.5.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "log4js": "^2.3.12",
+    "nodemon": "^1.11.0",
+    "parse-dashboard": "^1.0.26"
+  },
+  "author": "cccyang",
+  "license": "ISC"
+}
